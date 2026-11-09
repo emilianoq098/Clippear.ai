@@ -1,0 +1,8 @@
+[project]
+name = "clipper-ml-worker"
+version = "0.1.0"
+description = "Workers multimodales de Clipper.ai v3"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
