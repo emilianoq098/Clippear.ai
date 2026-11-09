@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "packageManager": "pnpm@10.22.0",
   "scripts": {
-    "dev": "turbo dev",
+    "dev": "node --env-file-if-exists=.env node_modules/turbo/bin/turbo run dev",
     "infra:up": "docker compose up -d",
     "infra:down": "docker compose down",
     "build": "turbo build",
